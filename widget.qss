@@ -1,0 +1,50 @@
+QLineEdit{font-family:"Microsoft YaHei";color:black;background-color:white;border:1px solid gray;border-radius:3px;font-size:15px;}
+QLabel{font-family:"Microsoft YaHei";color:black;font-size:18px;}
+QLabel#s1{font-family:"Microsoft YaHei";color:black;font-size:28px;}
+QLabel#s2{font-family:"Microsoft YaHei";color:black;font-size:23px;}
+QCheckBox{font-family:"Microsoft YaHei";color:black;font-size:18px;border:0px gray;}
+QPushButton{background-color:#168FFA;font-family:"Microsoft YaHei";color:white;font-size:16px;border:0px gray;}
+
+QPushButton:hover{background-color:#1E90FF;color:#000000;border:0px gray;border-style:outset;}
+QGroupBox{background-color:#22222c;border-width:1px;border-style:solid;border-color:rgb(3f,3f,43);border-radius:1px;margin-top:0.5ex;}
+
+
+QListWidget
+{
+	border:0px;
+	background-color:#22222c;
+}
+QListWidget::item
+{
+	border:0px;
+	background-color:#181818;
+	color:white;
+}
+QTableView{color:black;background-color:white;selection-color:black;selection-background-color:#d1e4e5;alternate-background-color:white;border:0px gray;border-style:outset;}
+
+QHeaderView::section{background-color:#d1e4e5;color:black;min-height:40px;border-radius:3px;border:0px gray;border-style:outset;}
+
+QScrollBar:vertical {background:transparent;width:12px;margin:0px 0px 0px 0px;}
+
+QScrollBar::handle:vertical{background:#d1e4e5;min-height:10px;}
+
+QScrollBar::handle:vertical:hover{background:#129ec1;}QScrollBar::add-line:vertical{background:transparent;}
+
+QScrollBar::sub-line:vertical{background:transparent;}
+
+QScrollBar:horizontal{background: transparent;height: 12px;margin:0px 0px 0px 0px;}
+QScrollBar::handle:horizontal{background:#d1e4e5;min-width:10px;}
+
+QScrollBar::handle:horizontal:hover{background:#129ec1;}
+
+QScrollBar::add-line:horizontal{background:transparent;}
+
+QScrollBar::sub-line:horizontal{background:transparent;}
+
+
+QComboBox{color:black;background-color:white;border:1px solid gray;border-radius:3px;padding: 1px 2px 1px 2px;}
+
+QComboBox::drop-down{subcontrol-origin:padding;subcontrol-position: top right;width:20px;border-left-width:1px;border-left-color:#129ec1;border-top-right-radius:3px;border-bottom-right-radius:3px;}
+QComboBox::down-arrow{image:url(:/pnd/png/sj.png);}
+
+QTextEdit{color:white;background-color:rgb(103,169,232,30);border:0px;font-family:"Microsoft YaHei";font-size:14px;}

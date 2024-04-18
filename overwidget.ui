@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OverWidget</class>
+ <widget class="QWidget" name="OverWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>916</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>科技治超</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="over.qrc">
+    <normaloff>:/pnd/sbzn.ico</normaloff>:/pnd/sbzn.ico</iconset>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="over.qrc"/>
+ </resources>
+ <connections/>
+</ui>
